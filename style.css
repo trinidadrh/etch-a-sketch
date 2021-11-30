@@ -1,5 +1,13 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: lightgrey;
+}
+
 h1 {
-text-shadow: 1px 1px yellowgreen;
+    text-shadow: 2px 2px yellowgreen;
 }
 
 #container {
@@ -7,12 +15,17 @@ text-shadow: 1px 1px yellowgreen;
     border: 5px solid black;
     width: 720px;
     height: 720px;
+    background-color: white;
+    box-shadow: 2px 2px yellowgreen;
     grid-template-columns: repeat(16, auto);
     grid-template-rows: repeat(16, auto);
 }
 
 #button {
     margin-left: 2rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px grey;
+    background-color: yellowgreen;
 }

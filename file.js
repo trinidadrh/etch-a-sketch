@@ -30,4 +30,4 @@ for (let i = 0; 1 < box.length; i++) {
 // Reload page when button is clicked 
 function clearGrid(){
     window.location.reload();
-} 
+}
